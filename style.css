@@ -20,7 +20,7 @@ header {
 }
 .form-container {
   padding: 15px 20px;
-  background-color: aquamarine;
+  background-color: #e9c4b1;
   border-radius: 10px;
 
   height: 75px;
@@ -57,7 +57,7 @@ header {
 
 .poem {
   font-size: 16px;
-  background-color: aquamarine;
+  background-color: #e9c4b1;
   padding: 20px;
   line-height: 2;
   border-left: 3px solid navy;
