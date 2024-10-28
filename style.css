@@ -5,7 +5,7 @@ body {
 }
 h1 {
   font-weight: 800;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 1.5;
   color: navy;
   text-align: center;
@@ -14,28 +14,39 @@ h1 {
   margin: 120px auto;
   max-width: 600px;
 }
+
 header {
   margin-bottom: 30px;
 }
-form {
-  padding: 30px;
+.form-container {
+  padding: 15px 20px;
   background-color: aquamarine;
   border-radius: 10px;
-  display: flex;
 
+  height: 75px;
   margin-bottom: 30px;
+}
+.hint {
+  line-height: 1.5;
+  margin-top: 6px;
+  opacity: 0.6;
+  font-size: 12px;
+  content: \A;
 }
 .instructions {
   padding: 16px;
-  border: 1px solid grey;
+  border: 1px solid rgba(39, 33, 66, 0.5);
   width: 80%;
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
 }
+#user-instructions {
+  width: 350px;
+}
 .submit-button {
   margin-left: 10px;
-  background: rebeccapurple;
+  background: navy;
   color: white;
   border: none;
   border-radius: 50px;
@@ -43,21 +54,39 @@ form {
   width: 150px;
   font-size: 16px;
 }
+
 .poem {
   font-size: 16px;
   background-color: aquamarine;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid rebeccapurple;
+  border-left: 3px solid navy;
 }
 footer {
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
 }
+.hidden {
+  display: none;
+}
 a {
-  color: rebeccapurple;
+  color: navy;
 }
 .poem strong {
-  color: rebeccapurple;
+  color: navy;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }

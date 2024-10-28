@@ -11,22 +11,26 @@
   <body>
     <div class="container">
       <header>
-        <h1>AI Flower Poem Generator</h1>
+        <h1>AI FLOWER POEM GENERATOR</h1>
       </header>
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the Flower Poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem"><br /></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of the Flower Poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+
+            <input type="submit" class="submit-button" />
+            <div class="hint">i.e: Rose, Daisy or Sunflower</div>
+          </form>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         This AI project was coded by
