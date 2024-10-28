@@ -1,5 +1,6 @@
 body {
-  background-color: lightpink;
+  background: url(5660126.jpg);
+  background-repeat: none;
   font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
@@ -57,5 +58,8 @@ footer {
   margin-top: 30px;
 }
 a {
+  color: rebeccapurple;
+}
+.poem strong {
   color: rebeccapurple;
 }
